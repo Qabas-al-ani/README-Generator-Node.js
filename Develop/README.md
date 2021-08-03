@@ -17,8 +17,8 @@ A README file that helps developers to write their project files in a profeshina
 ## Technologies
 - JavaScript.
 - Node.js.
-- fs.
-- inquirer.
+- fs Node.js module.
+- inquirer npm package.
 
 
 
@@ -32,7 +32,7 @@ npm install
 
 
 ### Usage
-to create a README.md files
+to create a README files
 
 
 ### Contribution
