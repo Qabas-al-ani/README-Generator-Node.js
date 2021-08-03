@@ -45,7 +45,7 @@ Its has being tested
 
 ### A Screenshot of my deployed README-Generator-Node.js
 
-![ScreenShots](./Develop/screenshots/ScreenShot-1.png) 
+![ScreenShots](https://github.com/Qabas-al-ani/README-Generator-Node.js/blob/main/Develop/screenshots/Screenshot-1.png) 
 
 [full demo video](https://drive.google.com/file/d/1GMQnX67U8aOCZqPm8RHsALJord0oFLvn/view?usp=sharing)
 
