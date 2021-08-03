@@ -33,6 +33,11 @@ undefined
 ### A Screenshot of my deployed 
 ![ScreenShots]()  
 
+### Questions? 
+For any questions, please contact me with the information below:
+
+[LinkedIn Profile](https://www.linkedin.com/in/qabas-al-ani-7b858863/)
+
 [full demo video]()
 
 ### Contact-Information

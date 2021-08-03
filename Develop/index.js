@@ -68,6 +68,11 @@ const questions = [
     message: "Enter your screenshot of your project",
   },
   {
+    type: "input",
+    name: "questions",
+    message: "For any questions",
+  },
+  {
     // Takes user input via checkbox
     type: "checkbox",
     message: "Licensing Options",

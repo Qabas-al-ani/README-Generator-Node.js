@@ -112,6 +112,10 @@ ${data.tests}
 ### A Screenshot of my deployed ${data.title}
 ![ScreenShots](${data.screenshot})  
 
+### Questions? 
+For any questions, please contact me with the information below:\n
+[LinkedIn Profile](https://www.linkedin.com/in/qabas-al-ani-7b858863/)
+
 [full demo video](${data.demo})
 
 ### Contact-Information
