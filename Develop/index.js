@@ -7,7 +7,7 @@ const generateMarkdown = require("./utils/generateMarkdown.js");
 //  questions for user input
 const questions = [
   {
-    // Takes user text input 
+    // Takes user text input
     type: "input",
     name: "username",
     message: "enter your Github username?",
@@ -50,11 +50,11 @@ const questions = [
   {
     type: "input",
     name: "technologies",
-    message: "Enter your technologies",
+    message: "Enter your technologies separated by comma",
   },
   {
     type: "input",
-    name: "Features",
+    name: "features",
     message: "Enter your project features",
   },
   {
@@ -69,8 +69,8 @@ const questions = [
   },
   {
     type: "input",
-    name: "questions",
-    message: "For any questions",
+    name: "linkedIn",
+    message: "please enter your linkedIn url",
   },
   {
     // Takes user input via checkbox
@@ -82,7 +82,6 @@ const questions = [
       "GNU GPL v3",
       "MIT",
       "BSD 3-Clause License",
-      "CC0",
       "Eclipse Public License 1.0",
       "IBM Public License Version 1.0",
     ],

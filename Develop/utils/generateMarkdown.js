@@ -75,6 +75,16 @@ function renderLicenseSection(data) {
   }
 }
 
+const renderTechnologies = (technologies) => {
+  let technologyContent = "";
+  let technologiesArr = technologies.split(",");
+  for (const technology of technologiesArr) {
+    technologyContent += `- ${technology}.
+`;
+  }
+  return technologyContent;
+};
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
@@ -83,47 +93,55 @@ function generateMarkdown(data) {
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
+- [Technologies](#Technologies)
 - [Usage](#usage)
 - [Contribution](#contribution)
 - [Test Instructions](#test-instructions)
-- [Contact Information](#contact-information)
+- [Questions](#questions)
 
-## Description
+## Description:
 ${data.description}
 
+
 ## Technologies
-${data.technologies}
+${renderTechnologies(data.technologies)}
+
+
 
 ## Features
 ${data.features}
 
+
 ### Installation
 ${data.installation}
+
 
 ### Usage
 ${data.usage}
 
+
 ### Contribution
 ${data.contribution}
+
 
 ### Test-Instructions
 ${data.tests}
 
-### A Screenshot of my deployed ${data.title}
-![ScreenShots](${data.screenshot})  
 
-### Questions? 
-For any questions, please contact me with the information below:\n
-[LinkedIn Profile](https://www.linkedin.com/in/qabas-al-ani-7b858863/)
+### A Screenshot of my deployed ${data.title}
+
+![ScreenShots](${data.screenshot}) 
 
 [full demo video](${data.demo})
 
-### Contact-Information
-[Email](${data.email})\n
+### Questions? 
+For any questions, please contact me with the information below:
+
+${data.email}
+
+[LinkedIn Profile](${data.linkedIn})
+
 [Github Profile](https://github.com/${data.username})
-
-
-
 
 `;
 }
